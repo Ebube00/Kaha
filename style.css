@@ -1,0 +1,349 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.nav-link{
+    color: black !important;
+}
+.nav-link:hover{
+    color: #43BA43 !important;
+}
+.logo{
+    margin-left: 40px;
+}
+.reg{
+    color: #FFFFFF !important;
+    background-color: #1BBF1B;
+    text-decoration: none;
+    border: #43BA43 solid 1px;
+    margin-right: 5px !important;
+    padding: 5px 20px !important; 
+}
+.reg:hover{
+    color: #43BA43;
+    background-color: #F4F1F1;
+    text-decoration: none;
+    color: #43BA43 !important;
+}
+.reg1{
+    background-color: snow !important;
+    color: #8F8F8F !important;
+    font-weight: 600;
+    text-decoration: none;
+    border: snow solid 1px;
+    padding: 5px 20px !important; 
+}
+.reg1:hover{
+    background-color: #43BA43 !important;
+    color: #F4F1F1;
+    text-decoration: none;
+    color: #FFF !important;
+}
+.body{
+    background: linear-gradient(60deg,rgba(0,0,0,0.6), rgba(255,255,255,0.3)) ,url(./images/Agriculture\ Science\ scope\ and\ its\ fields.jpg);
+    height: 600px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+.h{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    margin-top: 100px;
+    line-height: 60px;
+    padding: 0 500px 0 0;
+    margin-bottom: 50px;
+}
+.p{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    padding: 0 500px 0 0;
+}
+.btn{
+    background: #43BA43;
+    border: 1px solid #43BA43;
+    border-radius: 5px;
+    color: white;
+}
+.btn:hover{
+    color: #43BA43;
+    background-color: transparent;
+}
+.body1{
+    padding: 30px;
+    margin-top: 620px;
+}
+.p1{
+    color: #43BA43;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.p2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding: 0px 200px;
+    line-height: 35px;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+.body2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.div{
+    width: 40%;
+    /* height: 580px; */
+}
+.div1{
+    width: 60%;
+    margin-top: 200px;
+}
+.h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: #43BA43;
+    margin-left: 220px;
+}
+.p3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0px 120px;
+    margin-left: 100px;
+}
+.h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #43BA43;
+    margin-left: 50px;
+}
+.p4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0px 120px 0 0;
+    margin-left: 50px;
+}
+.img{
+    width: 100%;
+}
+.body3{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(./images/pexels-rihan-\(ishan\)-das-2519332.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 630px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.div2{
+    width: 50%;
+    padding: 150px 150px 0 80px;
+    margin-top: 120px;
+}
+.div3{
+    width: 50%;
+    padding: 150px 10px 0 150px;
+    margin-top: 120px;
+}
+.h3{
+    font-weight: 600;
+    font-size: 68px;
+    color: #FFFFFF;
+}
+.p5{
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.body4{
+    width: 100%;
+    background: #43BA43;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.div4{
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.p6{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.div5{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 150px;
+    margin-bottom: 70px;
+}
+.div6{
+    width: 10%;
+    margin-right: 60px;
+}
+.div7{
+    width: 80%;
+}
+.p7{
+    font-weight: 600;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.sp{
+    font-style: italic;
+    font-weight: 500;
+}
+.body5{
+    background: url(./images/pexels-mark-stebnicki-2255935.jpg);
+    height: 470px;
+    background-position: center;
+    background-size: cover;
+}
+.img2{
+    margin-left: 580px;
+    border-radius: 700px;
+    border: 30px solid #43BA43;
+    background-color: #43BA43;
+    margin-top: 420px;
+}
+.body6{
+    background: #000D00;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.div8{
+    margin-top: 150px;
+    width: 100%;
+}
+.h4{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+}
+.div9{
+    width: 100%;
+    margin-top: 25px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 290px;
+    margin-bottom: 50px;
+}
+.inp{
+    width: 700px;
+    border-radius: 50px;
+    font-size: 24px;
+    color: #828282;
+    padding: 9px 20px;
+    outline: none;
+    position: absolute;
+}
+.a1{
+    position: absolute;
+    background: #43BA43;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 24px;
+    padding: 10px 15px;
+    margin-left: 590px;
+    margin-top: 2px;
+}
+.a1:hover{
+    background: transparent;
+    color: #43BA43;
+    text-decoration: none;
+}
+.div11{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+.div12{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.div13{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.div113{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+.div14{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.div15{
+    width: 100%;
+}
+.a2{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.a2:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.p8{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.ul{
+    list-style: none;
+}
+.a3{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.a3:hover{
+    color: #43BA43;
+}
+.p9{
+    color: #FFFFFF;
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 0px;
+}
+.p10{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 30px;
+}

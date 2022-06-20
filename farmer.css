@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.div{
+    width: 61%;
+    /* border-right: 1px solid #C4BDBD; */
+    padding: 20px 40px;
+}
+.div1{
+    width: 39%;
+    background: url(./images/Agriculture\ Science\ scope\ and\ its\ fields.jpg);
+    height: 657px;
+    background-position: center;
+}
+.div2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.div3{
+    width: 45%;
+    margin-bottom: 30px;
+}
+.image{
+    width: 219px;
+    height: 200px;
+}
+.p1{
+    font-weight: 800;
+    font-size: 23px;
+    color: #077007;
+}
+.h{
+    font-size: 37px;
+    font-weight: 800;
+    color: #077007;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.p{
+    font-size: 23px;
+    font-weight: 800;
+    color: #077007;
+    padding: 0px 160px 0 0;
+    line-height: 28px;
+}
+.div5{
+    margin-bottom: 150px;
+}
+.btn{
+    padding: 5px 7px;
+    width: 200px;
+    /* text-align: center; */
+    border-radius: 20px;
+    color: #077007;
+    border: 1px solid #C4BDBD;
+    font-size: 20px;
+    font-weight: 800;
+    color: #077007;
+    margin-left: 150px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.btn:hover{
+    color: white;
+    background: #077007;
+}
+.search{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    color: #077007;
+    border-radius: 5px;
+    border: 1px solid #C4BDBD;
+    padding: 5px 15px;
+    outline: none;
+}
+.div4{
+    margin-bottom: 40px;
+    margin-left: 50px;
+}

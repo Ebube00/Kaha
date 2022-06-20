@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.div{
+    width: 45%;
+    background: url(./images/Crea\ tu\ jardín\ vertical\ en\ casa\,\ esto\ es\ todo\ lo\ que\ necesitas.jpg);
+    height: 655px;
+    position: absolute;
+    background-position: center;
+}
+/* .image{
+    width: 622px;
+    left: 0px;
+    top: 1px;
+    background: rgba(0, 0, 0, 0.2);
+} */
+.div1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 610px;
+}
+.h{
+    color: #077007;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 800;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.p{
+    font-weight: 800;
+    color: #C4BDBD;
+    margin-left: 80px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.a{
+    color: #077007;
+    text-decoration: none;
+    font-weight: 800;
+}
+label{
+    color: #077007;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.in{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid #C4BDBD;
+    outline: none;
+    padding: 5px 15px;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+.div2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.div3{
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.btn{
+    width: 400px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 50px;
+    background: #077007;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #077007;
+    cursor: pointer;
+}
+#id{
+    margin-top: 4px;
+    margin-right: 5px;
+}
+.a1{
+    margin-left: 5px;
+    color: #077007;
+}
